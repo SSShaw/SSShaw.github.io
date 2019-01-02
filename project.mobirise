@@ -15,7 +15,7 @@
         "mainFont": "Rubik",
         "display1Font": "Rubik",
         "display1Size": 4.25,
-        "display2Font": "Dancing Script",
+        "display2Font": "Rubik",
         "display2Size": 3,
         "display5Font": "Rubik",
         "display5Size": 1.5,
@@ -32,21 +32,21 @@
       ]
     },
     "path": "@PROJECT_PATH@",
-    "siteFonts": [
-      {
-        "css": "'Dancing Script', handwriting",
-        "name": "Dancing Script",
-        "url": "https://fonts.googleapis.com/css?family=Dancing+Script:400,700"
-      }
-    ],
+    "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 8,
+    "uniqCompNum": 3,
     "versionPublish": "4.8.10",
     "favicon": "",
     "noImageResize": "",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "on"
+    "robotsSwitcher": "on",
+    "google-analytics": "<!-- Global Site Tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'GA_TRACKING_ID');\r\n</script>",
+    "siteUrl": "https://ssshaw.github.io",
+    "sitemapSwitcherAuto": "on",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
@@ -4562,11 +4562,11 @@
           "_name": "content8",
           "_customHTML": "<section class=\"mbr-section content8\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"color\" title=\"Backgroud Color\" name=\"bgColor\" value=\"#cccccc\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row title\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-danger\" href=\"https://www.westgatereservations.com/specials/4days-3nights-myrtle-beach/\" data-app-placeholder=\"Type Text\" target=\"_blank\">Book Now!!<br></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rdX7mVW02I",
+          "_anchor": "content8-3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content8-3"
+          "_params": {}
         },
         {
           "_styles": {
